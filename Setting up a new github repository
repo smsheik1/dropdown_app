@@ -1,0 +1,36 @@
+Setting up a new github repository
+-------------------------------------
+1. mkdir repo_name(in terminal) 
+2. cd repo_name 
+3. make remote repo @ github.com (name: bryan_repo) 
+4. git init (on terminal) 
+5. git remote add origin https://github.com/smsheik1/dejuann_repo 
+6. (add files into the local repo)
+7. git add . 
+8. git commit -m 'this can be any relevant comment about the project'
+9. git push -u origin master
+-------------------------------------
+
+
+Adding alterations to your github repository
+--------------------------------------------
+
+1. (make some change to your project, add file,delete something, etc..)
+2. git branch nameofbranch (branch off from master)
+3. git checkout nameofbranch (change directories into the branch) 
+4. git add .
+5. git commit -m "relevant comment about your change"
+6. git checkout master
+7. git merge nameofbranch
+8. git push -u origin master
+
+--------------------------------------------
+
+
+
+
+
+
+
+
+
